@@ -1,6 +1,7 @@
 import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/Footer';
+import Crisp from './components/Crisp/Crisp';
 
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        {/* <Crisp /> */}
         <Footer />
       </body>
     </html>
