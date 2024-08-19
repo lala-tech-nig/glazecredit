@@ -18,8 +18,8 @@ const Register = () => {
         <>
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto  sm:pr-0">
                 <div className='hidden lg:block'>
-                    <button className="text-blue text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out leafbutton bg-lightblue hover:text-white hover:bg-blue" onClick={openModal}>
-                        Sign up
+                    <button className="text-[#17ad37] text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out leafbutton bg-lightblue hover:text-white hover:bg-[#17ad37]" onClick={openModal}>
+                        Apply Now
                     </button>
                 </div>
             </div>
@@ -102,7 +102,7 @@ const Register = () => {
                                                             id="remember-me"
                                                             name="remember-me"
                                                             type="checkbox"
-                                                            className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                                            className="h-4 w-4 rounded border-gray-300 text-[#17ad37] focus:ring-[#17ad37]"
                                                         />
                                                         <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
                                                             Remember me
@@ -114,7 +114,7 @@ const Register = () => {
                                                 <div>
                                                     <button
                                                         type="submit"
-                                                        className="group relative flex w-full justify-center rounded-md border border-transparent bg-blue py-2 px-4 text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                                        className="group relative flex w-full justify-center rounded-md border border-transparent bg-[#17ad37] py-2 px-4 text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                                                     >
                                                         <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                                                             <LockClosedIcon className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" aria-hidden="true" />

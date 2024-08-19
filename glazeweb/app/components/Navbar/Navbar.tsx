@@ -43,12 +43,12 @@ const Navbar = () => {
                                 <img
                                     className="block h-12 w-40 lg:hidden"
                                     src={'/assets/logo/logo.png'}
-                                    alt="dsign-logo"
+                                    alt="glazecredit-logo"
                                 />
                                 <img
-                                    className="hidden h-full w-full lg:block"
+                                    className="hidden h-[50] w-[50] lg:block"
                                     src={'/assets/logo/logo.png'}
-                                    alt="dsign-logo"
+                                    alt="glazecredit-logo"
                                 />
                             </div>
 

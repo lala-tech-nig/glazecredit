@@ -7,16 +7,16 @@ interface whydata {
 
 const whydata: whydata[] = [
     {
-        heading: "Quality",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Easy Application",
+        subheading: "Apply fully online with a simple and user-friendly process.",
     },
     {
-        heading: "Communication",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "AI Integrated",
+        subheading: "Our smart AI enhances your experience, offering personalized support and insights.",
     },
     {
-        heading: "Reliability",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Fast Disbursement",
+        subheading: "Experience lightning-fast disbursement to get your funds quickly when you need them.",
     }
 ]
 
@@ -35,8 +35,8 @@ const Why = () => {
 
                     {/* COLUMN-2 */}
                     <div>
-                        <h3 className="text-4xl lg:text-5xl pt-4 font-semibold sm:leading-tight mt-5 text-center lg:text-start">Why we best?</h3>
-                        <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center text-beach lg:text-start">Dont waste time on search manual tasks. Let Automation do it for you. Simplify workflows, reduce errors, and save time.</h4>
+                        <h3 className="text-4xl lg:text-5xl pt-4 font-semibold sm:leading-tight mt-5 text-center lg:text-start">Why we're the best?</h3>
+                        <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center text-beach lg:text-start">We offer a seamless online application, personalized support through advanced AI, and lightning-fast disbursement. Choose Glaze Credit for a top-notch lending experience.</h4>
 
                         <div className="mt-10">
                             {whydata.map((items, i) => (

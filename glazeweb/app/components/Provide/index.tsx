@@ -10,26 +10,26 @@ interface datatype {
 const Aboutdata: datatype[] = [
     {
         imgSrc: "/assets/provide/marketing.svg",
-        country: "Marketing",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Personal Loan",
+        paragraph: 'Flexible financing options for personal expenses, emergencies, or life events',
 
     },
     {
         imgSrc: "/assets/provide/graphic.svg",
-        country: "Graphic design",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Business Loan",
+        paragraph: 'Customized solutions to fuel your business growth, expansion, and operational needs.',
 
     },
     {
         imgSrc: "/assets/provide/heaking.svg",
-        country: "Heaking",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Salary Loan",
+        paragraph: 'Quick and convenient loans designed to help salaried individuals manage their finances.',
 
     },
     {
         imgSrc: "/assets/provide/uidesign.svg",
-        country: "UI/UX Design",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Proof of Fund",
+        paragraph: 'Providing reliable documentation and verification for enhancing your financial standing.',
     },
 ]
 
@@ -45,7 +45,7 @@ const Provide = () => {
                     <div className='col-span-6 flex justify-center'>
                         <div className="flex flex-col align-middle justify-center p-10">
                             <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">We provide that service.</p>
-                            <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</h4>
+                            <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">At Glaze Credit, we provide personal, business, and salary loans, along with proof of funds services to boost your account. Our AI-powered platform ensures a seamless and transparent lending experience, helping you make informed financial decisions.</h4>
                             <Link href={'/'} className="mt-4 text-xl font-medium text-blue flex gap-2 mx-auto lg:mx-0 space-links">Learn more <Image src={'/assets/provide/arrow.svg'} alt={'arrow'} width={20} height={20} /></Link>
                         </div>
                     </div>
